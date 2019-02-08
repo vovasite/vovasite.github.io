@@ -1,3 +1,121 @@
+#mainDiv{
+	position: absolute;
+	background-color: #111111;
+	width: 1280px;
+	height: 100px;
+	top: -0.5px;
+	left: -0.5px;
+}
+#Logo{
+}
+#LogoTextone{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	top: -34px;
+	font-size: 40px;
+	left: 10px;
+
+}
+#LogoTexttwo{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	top: 33px;
+	font-size: 16px;
+	left: 61px;
+}
+#LogoTextthree{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	top: 47px;
+	font-size: 20px;
+	left: 30px;
+}
+#navigation-key1{
+	position: absolute;
+	font-family: 'Work Sans', sans-serif;
+	left: 340px;
+	top: 16px;
+	color: #FFFFFF;
+}
+#navigation-key2{
+	position: absolute;
+	font-family: 'Work Sans', sans-serif;
+	color: #FFFFFF;
+	left: 470px;
+	top: 16px;
+}
+#navigation-key3{
+	position: absolute;
+	font-family: 'Work Sans', sans-serif;
+	color: #FFFFFF;
+	left: 570px;
+	top: 16px;
+}
+#navigation-key4{
+	position: absolute;
+	font-family: 'Work Sans', sans-serif;
+	color: #FFFFFF;
+	left: 770px;
+	top: 16px;
+}
+#navigation-key5{
+	position: absolute;
+	font-family: 'Work Sans', sans-serif;
+	color: #FFFFFF;
+	left: 870px;
+	top: 16px;
+}
+#number-1{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	left: 1080px;
+	top: 1px;
+	font-size: 20px;
+}
+#number-2{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	left: 1080px;
+	top: 33px;
+	font-size: 20px;
+}
 body{
-	background-color: blue;
+	background-image: url('background-image.jpg')
+}
+#h1Text{
+	position: absolute;
+	top: 60px;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	left: 130px;
+	font-size: 70px;
+}
+#h1Text-2{
+	position: absolute;
+	top: 129px;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	left: 130px;
+	font-size: 70px;
+}
+#h1Text-3{
+	position: absolute;
+	top: 196px;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	left: 130px;
+	font-size: 70px;
+}
+#h1Texts{
+	position: absolute;
+	top: 325px;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	left: 110px;
+	font-size: 18px;
 }
