@@ -6,11 +6,14 @@
 </head>
 <body>
 	<a href='main.html'>1234</a>
+	<button id='a'>Click me!</button>
 <script src='http://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script>
 	$('document').ready(function(){
-		alert('13');
-	})
+		$('a').click(function(){
+			alert('123');
+		});
+	});
 </script>
 </body>
 </html>
