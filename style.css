@@ -1,8 +1,10 @@
 #mainDiv{
 	position: absolute;
 	background-color: #111111;
-	width: 1280px;
+	width: 100%;
 	height: 100px;
+	max-width: 1920px;
+	max-height: 100px;
 	top: -0.5px;
 	left: -0.5px;
 }
@@ -118,4 +120,12 @@ body{
 	font-family: 'Noto Sans', sans-serif;
 	left: 110px;
 	font-size: 18px;
+}
+#header{
+	width: 100%;
+	max-width: 1920px;
+}
+#footer{
+	width: 100%;
+	max-width: 100%;
 }
