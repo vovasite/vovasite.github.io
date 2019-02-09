@@ -180,3 +180,38 @@ body{
 	top: 500px;
 	left: 500px;
 }
+#textKolegi{
+	position: absolute;
+	top: -400px;
+	color: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 70px;
+	right: 190px;
+}
+#textKolegi-two{
+	position: absolute;
+	top: -305px;
+	color: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 45px;
+	right: 140px;
+}
+#sponsors{
+	position: absolute;
+	top: -200px;
+	color: #FFFFFF;
+	font-family: 'Late', sans-serif;
+	right: 270px;
+	font-size: 15px;
+}
+#sponsor-text{
+	position: absolute;
+}
+#h2Text{
+	position: absolute;
+	color: #FFFFFF;
+	top: 670px;
+	left: 950px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 40px;
+}
