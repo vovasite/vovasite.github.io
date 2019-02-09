@@ -87,7 +87,7 @@
 	font-size: 20px;
 }
 body{
-	background-image: url('background-image.jpg')
+	background-image: url('background-image.jpg');
 }
 #h1Text{
 	position: absolute;
@@ -128,4 +128,47 @@ body{
 #footer{
 	width: 100%;
 	max-width: 100%;
+}
+#navigation-key1:hover{
+	border-bottom: 2px solid #FFFFFF;
+}
+#navigation-key2:hover{
+	border-bottom: 2px solid #FFFFFF;
+}
+#navigation-key3:hover{
+	border-bottom: 2px solid #FFFFFF;
+
+}
+#navigation-key4:hover{
+	border-bottom: 2px solid #FFFFFF;
+}
+#navigation-key5:hover{
+	border-bottom: 2px solid #FFFFFF;
+}
+#h1-footer{
+	position: absolute;
+	top: 400px;
+	left: 925px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #FFFFFF;
+	font-size: 39px;
+}
+#download{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 1px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  position: absolute;
+  top: 600px;
+  left: 915px;
+  font-weight: 700;
+  font-family: 'Late', sans-serif;
+} 
+#download:hover { background: rgba(255,255,255,.2); }
+#download:active { background: white; }
 }
