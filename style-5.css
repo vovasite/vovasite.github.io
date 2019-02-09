@@ -226,3 +226,65 @@ body{
 	top: 730px;
 	left: 1130px;
 }
+#text-1{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	top: 65px;
+	font-size: 70px;
+	left: 135px;	
+}
+#text-2{
+	position: absolute;
+	top: 155px;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 50px;
+	left: 135px;
+}
+#text-3{
+	position: absolute;
+	top: 215px;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 50px;
+	left: 135px;
+}
+#text-4{
+	position: absolute;
+	color: #FFFFFF;
+	top: 315px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	left: 110px;
+}
+#text-one{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 70px;
+	left: 135px;
+	top: 65px;
+}
+#text-two{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 70px;
+	left: 135px;
+	top: 130px;
+}
+#text-three{
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 50px;
+	left: 135px;
+	top: 220px;
+}
+#img{
+	position: absolute;
+	top: 850px;
+	left: 990px;
+}
+
