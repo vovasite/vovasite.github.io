@@ -1,0 +1,37 @@
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello223233`3`", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello1", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello2", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello3", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello4", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello5", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello6", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello7", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello8", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello9", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "helslo10", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello11", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello12", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello13", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello14", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "heasdasddllo15", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello16", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "heldasdslo17", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "helldado18", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello19", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hellosdada22", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello123", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello21312", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "helsadlo1231", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello3333", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hellasdasdsd4o", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hell42314o", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello423", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hell4o", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hel52lo", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "helsaslo5", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hello4223", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "he554llo", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "hel66lo", "width=200,height=200");
+var newWin = window.open("https://www.instagram.com/accounts/login/?source=auth_switcher", "heldslo", "width=200,height=200");
+//CODED BY VD2019
+
