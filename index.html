@@ -8,41 +8,43 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <style>
-     *{padding: 0 ;margin: 0;}
-      body {
-        width: 100%;
-      }
+    <script src="slideout.min.js"></script>
+</head>
+  <body>
+  	    <style>
+     * {padding: 0 ;margin: 0;}
         @media screen and (min-width: 780px) {
-          .slideout-panel {
-            margin-left: 256px;
-          }
-
-          .slideout-menu {
-            display: block;
-          }
-
           .toggle-button {
             display: none;
           }
         }
+
       .slideout-menu {
         position: fixed;
-        left: 0;
         top: 0;
         bottom: 0;
-        right: 0;
         z-index: 0;
         width: 256px;
-        background-color: #4D5E69;
+        overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
         display: none;
+        background-color: #FFF;
+      }
+
+      .slideout-menu-left {
+        left: 0;
+      }
+
+      .slideout-menu-right {
+        right: 0;
       }
 
       .slideout-panel {
         position: relative;
         z-index: 1;
+        background-color: #000;
         will-change: transform;
+        min-height: 100vh;
       }
 
       .slideout-open,
@@ -54,11 +56,6 @@
       .slideout-open .slideout-menu {
         display: block;
       }
-      .header{
-        background-color: #4D5E69;
-        width: 100%;
-        height: 7vh
-      }
       .toggle-button{
         cursor: pointer;
         color: #fff;
@@ -68,11 +65,10 @@
         font-size: 20px;
       }
     </style>
-  </head>
-  <body>
-    <div class='header'>
     <nav id="menu">
-      <a href="#" class='button-one'>Головна</a>
+      <header>
+        <a href="#" class='button-one'>Головна</a>
+      </header>
     </nav>
 
     <main id="panel">
@@ -80,7 +76,6 @@
         <a class="toggle-button">☰</a>
       </header>
     </main>
-  </div>
 
     <script src="slideout.min.js"></script>
     <script>
