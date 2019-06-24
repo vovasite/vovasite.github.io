@@ -1,10 +1,101 @@
-<!DOCTYPE html>
-<html lang='ru'>
-	<head>
-		<title>-Computer :)</title>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<script type="text/javascript" src='main.js'></script>
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slideout Demo</title>
+    <meta http-equiv="cleartype" content="on">
+    <meta name="MobileOptimized" content="320">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <style>
+     *{padding: 0 ;margin: 0;}
+      body {
+        width: 100%;
+      }
+        @media screen and (min-width: 780px) {
+          .slideout-panel {
+            margin-left: 256px;
+          }
+
+          .slideout-menu {
+            display: block;
+          }
+
+          .toggle-button {
+            display: none;
+          }
+        }
+      .slideout-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 256px;
+        background-color: #4D5E69;
+        -webkit-overflow-scrolling: touch;
+        display: none;
+      }
+
+      .slideout-panel {
+        position: relative;
+        z-index: 1;
+        will-change: transform;
+      }
+
+      .slideout-open,
+      .slideout-open body,
+      .slideout-open .slideout-panel {
+        overflow: hidden;
+      }
+
+      .slideout-open .slideout-menu {
+        display: block;
+      }
+      .header{
+        background-color: #4D5E69;
+        width: 100%;
+        height: 7vh
+      }
+      .toggle-button{
+        cursor: pointer;
+        color: #fff;
+        font-size: 40px;
+      }
+      .button-one{
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='header'>
+    <nav id="menu">
+      <a href="#" class='button-one'>Головна</a>
+    </nav>
+
+    <main id="panel">
+      <header>
+        <a class="toggle-button">☰</a>
+      </header>
+    </main>
+  </div>
+
+    <script src="slideout.min.js"></script>
+    <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70 
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+    </script>
+
+  </body>
 </html>
